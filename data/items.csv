@@ -1,0 +1,26 @@
+id,category,location,price
+1,House,Piassa,1500
+2,Electronics,4 Killo,500
+3,Machinery,Megenagna,20
+4,House,Lideta,2000
+5,Cloth,Legehar,40
+6,Others,Jemo,30
+7,Machinery,Piassa,1800
+8,Vehicle,4 Killo,60
+9,Cloth,Megenagna,25
+10,Electronics,Lideta,1700
+11,House,Legehar,1200
+12,Electronics,Jemo,650
+13,Cloth,Piassa,35
+14,Vehicle,Megenagna,70
+15,Electronics,4 Killo,550
+16,Machinery,Lideta,1900
+17,Others,Legehar,45
+18,House,Jemo,2200
+19,Vehicle,Piassa,80
+20,Cloth,4 Killo,50
+21,Machinery,Megenagna,2000
+22,Electronics,Lideta,600
+23,Vehicle,Legehar,90
+24,House,Jemo,1700
+25,Others,4 Killo,40
