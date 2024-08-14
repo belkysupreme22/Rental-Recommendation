@@ -1,26 +1,80 @@
-id,category,location,price
-1,House,Piassa,1500
-2,Electronics,4 Killo,500
-3,Machinery,Megenagna,20
-4,House,Lideta,2000
-5,Cloth,Legehar,40
-6,Others,Jemo,30
-7,Machinery,Piassa,1800
-8,Vehicle,4 Killo,60
-9,Cloth,Megenagna,25
-10,Electronics,Lideta,1700
-11,House,Legehar,1200
-12,Electronics,Jemo,650
-13,Cloth,Piassa,35
-14,Vehicle,Megenagna,70
-15,Electronics,4 Killo,550
-16,Machinery,Lideta,1900
-17,Others,Legehar,45
-18,House,Jemo,2200
-19,Vehicle,Piassa,80
-20,Cloth,4 Killo,50
-21,Machinery,Megenagna,2000
-22,Electronics,Lideta,600
-23,Vehicle,Legehar,90
-24,House,Jemo,1700
-25,Others,4 Killo,40
+id,property_id,property_name,image,description,price,latitude,longitude,address,category,status,user_id,createdAt,updatedAt
+64d9a6f41b1c4f7e,64d9a6f41b1c4f7f,Luxury Apartment,https://example.com/image1.jpg,"A beautiful luxury apartment in the city center.",2500,9.03,38.74,"Piassa, Addis Ababa",House,true,64d9a6f41b1c4fa1,2024-08-01T12:00:00Z,2024-08-10T12:00:00Z
+64d9a6f41b1c4f80,64d9a6f41b1c4f81,Industrial Machinery,https://example.com/image2.jpg,"Heavy-duty industrial machinery for large-scale operations.",1800,9.04,38.72,"Legehar, Addis Ababa",Machinery,true,64d9a6f41b1c4fa2,2024-08-03T14:00:00Z,2024-08-12T15:00:00Z
+64d9a6f41b1c4f82,64d9a6f41b1c4f83,Designer Clothing,https://example.com/image3.jpg,"High-end designer clothing available for purchase.",100,9.05,38.75,"Bole, Addis Ababa",Cloth,true,64d9a6f41b1c4fa3,2024-08-05T10:00:00Z,2024-08-13T11:00:00Z
+64d9a6f41b1c4f84,64d9a6f41b1c4f85,Used Car,https://example.com/image4.jpg,"Well-maintained used car at an affordable price.",1200,9.06,38.76,"Piassa, Addis Ababa",Vehicle,true,64d9a6f41b1c4fa4,2024-08-07T08:00:00Z,2024-08-14T09:00:00Z
+64d9a6f41b1c4f86,64d9a6f41b1c4f87,Electronics Shop,https://example.com/image5.jpg,"Latest electronics including smartphones and laptops.",800,9.07,38.77,"Megenagna, Addis Ababa",Electronics,true,64d9a6f41b1c4fa5,2024-08-09T12:00:00Z,2024-08-15T12:00:00Z
+64d9a6f41b1c4f88,64d9a6f41b1c4f89,Cozy Cafe,https://example.com/image6.jpg,"A cozy cafe with a relaxing atmosphere.",300,9.08,38.78,"Bole, Addis Ababa",Others,true,64d9a6f41b1c4fa6,2024-08-11T14:00:00Z,2024-08-16T15:00:00Z
+64d9a6f41b1c4f8a,64d9a6f41b1c4f8b,House for Rent,https://example.com/image7.jpg,"Spacious house available for long-term rent.",2200,9.09,38.79,"Mexico, Addis Ababa",House,true,64d9a6f41b1c4fa7,2024-08-13T08:00:00Z,2024-08-17T09:00:00Z
+64d9a6f41b1c4f8c,64d9a6f41b1c4f8d,Gaming Console,https://example.com/image8.jpg,"Latest gaming console with high-end graphics.",600,9.10,38.80,"Lideta, Addis Ababa",Electronics,true,64d9a6f41b1c4fa8,2024-08-15T12:00:00Z,2024-08-18T12:00:00Z
+64d9a6f41b1c4f8e,64d9a6f41b1c4f8f,Furniture Set,https://example.com/image9.jpg,"Modern furniture set for living room.",1500,9.11,38.81,"Jemo, Addis Ababa",Others,true,64d9a6f41b1c4fa9,2024-08-17T14:00:00Z,2024-08-19T15:00:00Z
+64d9a6f41b1c4f90,64d9a6f41b1c4f91,Home Appliances,https://example.com/image10.jpg,"Home appliances including fridge, washing machine.",1000,9.12,38.82,"Piassa, Addis Ababa",Electronics,true,64d9a6f41b1c4faa,2024-08-19T08:00:00Z,2024-08-20T09:00:00Z
+64d9a6f41b1c4f92,64d9a6f41b1c4f93,Bookstore,https://example.com/image11.jpg,"A wide collection of books from various genres.",200,9.13,38.83,"Megenagna, Addis Ababa",Others,true,64d9a6f41b1c4fab,2024-08-21T12:00:00Z,2024-08-22T12:00:00Z
+64d9a6f41b1c4f94,64d9a6f41b1c4f95,Boutique Hotel,https://example.com/image12.jpg,"Luxurious boutique hotel with top-notch amenities.",3500,9.14,38.84,"Lideta, Addis Ababa",House,true,64d9a6f41b1c4fac,2024-08-23T14:00:00Z,2024-08-24T15:00:00Z
+64d9a6f41b1c4f96,64d9a6f41b1c4f97,Motorbike,https://example.com/image13.jpg,"Well-maintained motorbike for sale.",700,9.15,38.85,"Jemo, Addis Ababa",Vehicle,true,64d9a6f41b1c4fad,2024-08-25T08:00:00Z,2024-08-26T09:00:00Z
+64d9a6f41b1c4f98,64d9a6f41b1c4f99,Jewelry Store,https://example.com/image14.jpg,"Exclusive collection of gold and diamond jewelry.",5000,9.16,38.86,"Bole, Addis Ababa",Vehicle,true,64d9a6f41b1c4fae,2024-08-27T12:00:00Z,2024-08-28T12:00:00Z
+64d9a6f41b1c4f9a,64d9a6f41b1c4f9b,Restaurant,https://example.com/image15.jpg,"Fine dining restaurant with a variety of cuisines.",2500,9.17,38.87,"Mexico, Addis Ababa",Others,true,64d9a6f41b1c4faf,2024-08-29T14:00:00Z,2024-08-30T15:00:00Z
+64d9a6f41b1c4f9c,64d9a6f41b1c4f9d,Art Gallery,https://example.com/image16.jpg,"Contemporary art gallery showcasing local artists.",1500,9.18,38.88,"Lideta, Addis Ababa",Electronics,true,64d9a6f41b1c4fb0,2024-08-31T08:00:00Z,2024-09-01T09:00:00Z
+64d9a6f41b1c4f9e,64d9a6f41b1c4f9f,Music Instruments,https://example.com/image17.jpg,"Wide range of musical instruments for all ages.",800,9.19,38.89,"Piassa, Addis Ababa",Others,true,64d9a6f41b1c4fb1,2024-09-02T12:00:00Z,2024-09-03T12:00:00Z
+64d9a6f41b1c4fa0,64d9a6f41b1c4fa1,Pet Store,https://example.com/image18.jpg,"All kinds of pets and pet supplies available.",500,9.20,38.90,"Megenagna, Addis Ababa",House,true,64d9a6f41b1c4fb2,2024-09-04T14:00:00Z,2024-09-05T15:00:00Z
+64d9a6f41b1c4fa2,64d9a6f41b1c4fa3,Spa and Wellness,https://example.com/image19.jpg,"Relaxing spa and wellness center for rejuvenation.",1000,9.21,38.91,"Jemo, Addis Ababa",House,true,64d9a6f41b1c4fb3,2024-09-06T08:00:00Z,2024-09-07T09:00:00Z
+64d9a6f41b1c4fa4,64d9a6f41b1c4fa5,Fine Wines,https://example.com/image20.jpg,"Exclusive collection of fine wines and spirits.",3000,9.22,38.92,"Bole, Addis Ababa",Others,true,64d9a6f41b1c4fb4,2024-09-08T12:00:00Z,2024-09-09T12:00:00Z
+64d9a6f41b1c4fa6,64d9a6f41b1c4fa7,Office Space,https://example.com/image21.jpg,"Modern office space for lease in a prime location.",4000,9.23,38.93,"Mexico, Addis Ababa",Electronics,true,64d9a6f41b1c4fb5,2024-09-10T14:00:00Z,2024-09-11T15:00:00Z
+64d9a6f41b1c4fa8,64d9a6f41b1c4fa9,Camping Gear,https://example.com/image22.jpg,"High-quality camping gear for outdoor adventures.",200,9.24,38.94,"Lideta, Addis Ababa",Vehicle,true,64d9a6f41b1c4fb6,2024-09-12T08:00:00Z,2024-09-13T09:00:00Z
+64d9a6f41b1c4faa,64d9a6f41b1c4fab,Photography Equipment,https://example.com/image23.jpg,"Professional photography equipment for sale.",1500,9.25,38.95,"Piassa, Addis Ababa",Others,true,64d9a6f41b1c4fb7,2024-09-14T12:00:00Z,2024-09-15T12:00:00Z
+64d9a6f41b1c4fac,64d9a6f41b1c4fad,Kitchen Appliances,https://example.com/image24.jpg,"Essential kitchen appliances for home cooking.",1000,9.26,38.96,"Megenagna, Addis Ababa",Electronics,true,64d9a6f41b1c4fb8,2024-09-16T14:00:00Z,2024-09-17T15:00:00Z
+64d9a6f41b1c4fae,64d9a6f41b1c4faf,Furniture Store,https://example.com/image25.jpg,"Wide range of furniture for different needs.",2000,9.27,38.97,"Jemo, Addis Ababa",House,true,64d9a6f41b1c4fb9,2024-09-18T08:00:00Z,2024-09-19T09:00:00Z
+64d9a6f41b1c4fb0,64d9a6f41b1c4fb1,Antique Shop,https://example.com/image26.jpg,"Exclusive antiques and vintage items for collectors.",3000,9.28,38.98,"Bole, Addis Ababa",Vehicle,true,64d9a6f41b1c4fba,2024-09-20T12:00:00Z,2024-09-21T12:00:00Z
+64d9a6f41b1c4fb2,64d9a6f41b1c4fb3,Health Supplements,https://example.com/image27.jpg,"High-quality health supplements and vitamins.",500,9.29,38.99,"Mexico, Addis Ababa",Others,true,64d9a6f41b1c4fbb,2024-09-22T14:00:00Z,2024-09-23T15:00:00Z
+64d9a6f41b1c4fb4,64d9a6f41b1c4fb5,Tech Gadgets,https://example.com/image28.jpg,"Latest tech gadgets and innovations.",1200,9.30,39.00,"Lideta, Addis Ababa",Electronics,true,64d9a6f41b1c4fbc,2024-09-24T08:00:00Z,2024-09-25T09:00:00Z
+64d9a6f41b1c4fb6,64d9a6f41b1c4fb7,Organic Foods,https://example.com/image29.jpg,"Fresh organic foods from local farms.",300,9.31,39.01,"Piassa, Addis Ababa",Others,true,64d9a6f41b1c4fbd,2024-09-26T12:00:00Z,2024-09-27T12:00:00Z
+64d9a6f41b1c4fb8,64d9a6f41b1c4fb9,Boat Rental,https://example.com/image30.jpg,"Boat rental services for lakes and rivers.",1500,9.32,39.02,"Megenagna, Addis Ababa",Vehicle,true,64d9a6f41b1c4fbe,2024-09-28T14:00:00Z,2024-09-29T15:00:00Z
+64d9a6f41b1c4fdd,64d9a6f41b1c4fde,High Fashion Dress,https://example.com/image41.jpg,"Elegant high fashion dress suitable for special occasions.",800,9.43,39.13,"Bole, Addis Ababa",Cloth,true,64d9a6f41b1c4fdf,2024-10-20T12:00:00Z,2024-10-21T12:00:00Z
+64d9a6f41b1c4fe0,64d9a6f41b1c4fe1,Leather Jacket,https://example.com/image42.jpg,"Stylish leather jacket with premium finish.",1200,9.44,39.14,"Megenagna, Addis Ababa",Cloth,true,64d9a6f41b1c4fe2,2024-10-22T08:00:00Z,2024-10-23T09:00:00Z
+64d9a6f41b1c4fe3,64d9a6f41b1c4fe4,Formal Suit,https://example.com/image43.jpg,"High-quality formal suit perfect for business events.",1500,9.45,39.15,"Lideta, Addis Ababa",Cloth,true,64d9a6f41b1c4fe5,2024-10-24T14:00:00Z,2024-10-25T15:00:00Z
+64d9a6f41b1c4fe6,64d9a6f41b1c4fe7,Silk Scarf,https://example.com/image44.jpg,"Luxury silk scarf with intricate designs.",300,9.46,39.16,"Piassa, Addis Ababa",Cloth,true,64d9a6f41b1c4fe8,2024-10-26T12:00:00Z,2024-10-27T12:00:00Z
+64d9a6f41b1c4fe9,64d9a6f41b1c4fea,Evening Gown,https://example.com/image45.jpg,"Beautiful evening gown for formal events.",2000,9.47,39.17,"Jemo, Addis Ababa",Cloth,true,64d9a6f41b1c4feb,2024-10-28T08:00:00Z,2024-10-29T09:00:00Z
+64d9a6f41b1c4fec,64d9a6f41b1c4fed,Construction Crane,https://example.com/image46.jpg,"Heavy-duty construction crane for large projects.",50000,9.48,39.18,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4fee,2024-10-30T12:00:00Z,2024-10-31T12:00:00Z
+64d9a6f41b1c4fef,64d9a6f41b1c4ff0,Excavator,https://example.com/image47.jpg,"Versatile excavator suitable for various digging tasks.",70000,9.49,39.19,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4ff1,2024-11-01T08:00:00Z,2024-11-02T09:00:00Z
+64d9a6f41b1c4ff2,64d9a6f41b1c4ff3,Industrial Drill,https://example.com/image48.jpg,"High-performance industrial drill for manufacturing.",15000,9.50,39.20,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4ff4,2024-11-03T14:00:00Z,2024-11-04T15:00:00Z
+64d9a6f41b1c4ff5,64d9a6f41b1c4ff6,Concrete Mixer,https://example.com/image49.jpg,"Durable concrete mixer for construction work.",20000,9.51,39.21,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4ff7,2024-11-05T12:00:00Z,2024-11-06T12:00:00Z
+64d9a6f41b1c4ff8,64d9a6f41b1c4ff9,Woodworking Lathe,https://example.com/image50.jpg,"Precision woodworking lathe for carpenters.",12000,9.52,39.22,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4ffa,2024-11-07T08:00:00Z,2024-11-08T09:00:00Z
+64d9a6f41b1c4ffb,64d9a6f41b1c4ffc,Hydraulic Press,https://example.com/image51.jpg,"Heavy-duty hydraulic press for metalworking.",25000,9.53,39.23,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4ffd,2024-11-09T14:00:00Z,2024-11-10T15:00:00Z
+64d9a6f41b1c4ffe,64d9a6f41b1c4fff,Industrial Fan,https://example.com/image52.jpg,"Powerful industrial fan for ventilation.",8000,9.54,39.24,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f00,2024-11-11T12:00:00Z,2024-11-12T12:00:00Z
+64d9a6f41b1c4f01,64d9a6f41b1c4f02,Protective Gear Set,https://example.com/image53.jpg,"Comprehensive protective gear set for industrial use.",1000,9.55,39.25,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f03,2024-11-13T08:00:00Z,2024-11-14T09:00:00Z
+64d9a6f41b1c4f04,64d9a6f41b1c4f05,Industrial Sewing Machine,https://example.com/image54.jpg,"Heavy-duty sewing machine for manufacturing fabrics.",8000,9.56,39.26,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f06,2024-11-15T14:00:00Z,2024-11-16T15:00:00Z
+64d9a6f41b1c4f07,64d9a6f41b1c4f08,Power Generator,https://example.com/image55.jpg,"Reliable power generator for industrial settings.",12000,9.57,39.27,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f09,2024-11-17T12:00:00Z,2024-11-18T12:00:00Z
+64d9a6f41b1c4f0a,64d9a6f41b1c4f0b,Industrial Oven,https://example.com/image56.jpg,"Heavy-duty industrial oven for baking and curing.",15000,9.58,39.28,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f0c,2024-11-19T08:00:00Z,2024-11-20T09:00:00Z
+64d9a6f41b1c4f0d,64d9a6f41b1c4f0e,Portable Welding Machine,https://example.com/image57.jpg,"Versatile portable welding machine for various tasks.",6000,9.59,39.29,"Addis Ababa, Addis Ababa",Machinery,true,64d9a6f41b1c4f0f,2024-11-21T14:00:00Z,2024-11-22T15:00:00Z
+64d9a6f41b1c4f10,64d9a6f41b1c4f11,Art Collection,https://example.com/image58.jpg,"Rare collection of contemporary art pieces.",10000,9.60,39.30,"Addis Ababa, Addis Ababa",Others,true,64d9a6f41b1c4f12,2024-11-23T12:00:00Z,2024-11-24T12:00:00Z
+64d9a6f41b1c4f13,64d9a6f41b1c4f14,Antique Furniture Set,https://example.com/image59.jpg,"Elegant antique furniture set from the 19th century.",20000,9.61,39.31,"Addis Ababa, Addis Ababa",Others,true,64d9a6f41b1c4f15,2024-11-25T08:00:00Z,2024-11-26T09:00:00Z
+64d9a6f41b1c4f16,64d9a6f41b1c4f17,Vintage Car,https://example.com/image60.jpg,"Classic vintage car in excellent condition.",30000,9.62,39.32,"Addis Ababa, Addis Ababa",Others,true,64d9a6f41b1c4f18,2024-11-27T14:00:00Z,2024-11-28T15:00:00Z
+64d9a6f41b1c4f19,64d9a6f41b1c4f1a,Music Instruments Set,https://example.com/image61.jpg,"Complete set of high-quality music instruments.",4000,9.63,39.33,"Addis Ababa, Addis Ababa",Others,true,64d9a6f41b1c4f1b,2024-11-29T12:00:00Z,2024-11-30T12:00:00Z
+64d9a6f41b1c4f1c,64d9a6f41b1c4f1d,Smartphone,https://example.com/image62.jpg,"Latest model smartphone with advanced features.",700,9.64,39.34,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f1e,2024-12-01T08:00:00Z,2024-12-02T09:00:00Z
+64d9a6f41b1c4f1f,64d9a6f41b1c4f20,Laptop,https://example.com/image63.jpg,"High-performance laptop for professional use.",1500,9.65,39.35,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f21,2024-12-03T14:00:00Z,2024-12-04T15:00:00Z
+64d9a6f41b1c4f22,64d9a6f41b1c4f23,Smart TV,https://example.com/image64.jpg,"4K Smart TV with built-in streaming capabilities.",2000,9.66,39.36,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f24,2024-12-05T12:00:00Z,2024-12-06T12:00:00Z
+64d9a6f41b1c4f25,64d9a6f41b1c4f26,Bluetooth Speaker,https://example.com/image65.jpg,"Portable Bluetooth speaker with high-quality sound.",150,9.67,39.37,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f27,2024-12-07T08:00:00Z,2024-12-08T09:00:00Z
+64d9a6f41b1c4f28,64d9a6f41b1c4f29,Digital Camera,https://example.com/image66.jpg,"High-resolution digital camera for professional photography.",1200,9.68,39.38,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f2a,2024-12-09T14:00:00Z,2024-12-10T15:00:00Z
+64d9a6f41b1c4f2b,64d9a6f41b1c4f2c,Gaming Console,https://example.com/image67.jpg,"Latest gaming console with a variety of games included.",400,9.69,39.39,"Addis Ababa, Addis Ababa",Electronics,true,64d9a6f41b1c4f2d,2024-12-11T12:00:00Z,2024-12-12T12:00:00Z
+64d9a6f41b1c4f2e,64d9a6f41b1c4f2f,Modern Apartment,https://example.com/image68.jpg,"Spacious modern apartment with 3 bedrooms and 2 bathrooms.",150000,9.70,39.40,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f30,2024-12-13T08:00:00Z,2024-12-14T09:00:00Z
+64d9a6f41b1c4f31,64d9a6f41b1c4f32,Luxury Villa,https://example.com/image69.jpg,"Luxury villa with a private pool and garden.",500000,9.71,39.41,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f33,2024-12-15T14:00:00Z,2024-12-16T15:00:00Z
+64d9a6f41b1c4f34,64d9a6f41b1c4f35,Cozy Cottage,https://example.com/image70.jpg,"Charming cozy cottage perfect for a small family.",80000,9.72,39.42,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f36,2024-12-17T12:00:00Z,2024-12-18T12:00:00Z
+64d9a6f41b1c4f37,64d9a6f41b1c4f38,Townhouse,https://example.com/image71.jpg,"Modern townhouse with easy access to amenities.",120000,9.73,39.43,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f39,2024-12-19T08:00:00Z,2024-12-20T09:00:00Z
+64d9a6f41b1c4f3a,64d9a6f41b1c4f3b,Studio Apartment,https://example.com/image72.jpg,"Compact studio apartment ideal for individuals.",50000,9.74,39.44,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f3c,2024-12-21T14:00:00Z,2024-12-22T15:00:00Z
+64d9a6f41b1c4f3d,64d9a6f41b1c4f3e,Penthouse,https://example.com/image73.jpg,"Exclusive penthouse with panoramic city views.",300000,9.75,39.45,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f3f,2024-12-23T12:00:00Z,2024-12-24T12:00:00Z
+64d9a6f41b1c4f40,64d9a6f41b1c4f41,Family House,https://example.com/image74.jpg,"Spacious family house with a large backyard.",200000,9.76,39.46,"Addis Ababa, Addis Ababa",House,true,64d9a6f41b1c4f42,2024-12-25T08:00:00Z,2024-12-26T09:00:00Z
+64d9a6f41b1c4f43,64d9a6f41b1c4f44,City Car,https://example.com/image75.jpg,"Compact city car with great fuel efficiency.",15000,9.77,39.47,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f45,2024-12-27T12:00:00Z,2024-12-28T12:00:00Z
+64d9a6f41b1c4f46,64d9a6f41b1c4f47,SUV,https://example.com/image76.jpg,"Spacious SUV with off-road capabilities.",35000,9.78,39.48,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f48,2024-12-29T08:00:00Z,2024-12-30T09:00:00Z
+64d9a6f41b1c4f49,64d9a6f41b1c4f4a,Motorbike,https://example.com/image77.jpg,"Sporty motorbike with high performance.",7000,9.79,39.49,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f4b,2024-12-31T14:00:00Z,2025-01-01T15:00:00Z
+64d9a6f41b1c4f4c,64d9a6f41b1c4f4d,Pickup Truck,https://example.com/image78.jpg,"Reliable pickup truck for heavy-duty tasks.",25000,9.80,39.50,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f4e,2025-01-02T12:00:00Z,2025-01-03T12:00:00Z
+64d9a6f41b1c4f4f,64d9a6f41b1c4f50,Convertible Car,https://example.com/image79.jpg,"Stylish convertible car for open-air driving.",30000,9.81,39.51,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f51,2025-01-04T08:00:00Z,2025-01-05T09:00:00Z
+64d9a6f41b1c4f52,64d9a6f41b1c4f53,Minivan,https://example.com/image80.jpg,"Family-friendly minivan with ample seating.",22000,9.82,39.52,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f54,2025-01-06T14:00:00Z,2025-01-07T15:00:00Z
+64d9a6f41b1c4f55,64d9a6f41b1c4f56,Electric Car,https://example.com/image81.jpg,"Eco-friendly electric car with long range.",40000,9.83,39.53,"Addis Ababa, Addis Ababa",Vehicle,true,64d9a6f41b1c4f57,2025-01-08T12:00:00Z,2025-01-09T12:00:00Z
+64d9a6f41b1c4f58,64d9a6f41b1c4f59,Men's Suit,https://example.com/image82.jpg,"Elegant men's suit, perfect for formal occasions.",250,9.84,39.54,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f5a,2025-01-10T08:00:00Z,2025-01-11T09:00:00Z
+64d9a6f41b1c4f5b,64d9a6f41b1c4f5c,Women's Dress,https://example.com/image83.jpg,"Stylish women's dress ideal for parties.",150,9.85,39.55,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f5d,2025-01-12T14:00:00Z,2025-01-13T15:00:00Z
+64d9a6f41b1c4f5e,64d9a6f41b1c4f5f,Leather Jacket,https://example.com/image84.jpg,"High-quality leather jacket for a rugged look.",300,9.86,39.56,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f60,2025-01-14T12:00:00Z,2025-01-15T12:00:00Z
+64d9a6f41b1c4f61,64d9a6f41b1c4f62,Sneakers,https://example.com/image85.jpg,"Comfortable and stylish sneakers for everyday wear.",100,9.87,39.57,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f63,2025-01-16T08:00:00Z,2025-01-17T09:00:00Z
+64d9a6f41b1c4f64,64d9a6f41b1c4f65,Winter Coat,https://example.com/image86.jpg,"Warm and cozy winter coat for cold weather.",200,9.88,39.58,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f66,2025-01-18T14:00:00Z,2025-01-19T15:00:00Z
+64d9a6f41b1c4f67,64d9a6f41b1c4f68,Designer Handbag,https://example.com/image87.jpg,"Luxury designer handbag with a sleek design.",500,9.89,39.59,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f69,2025-01-20T12:00:00Z,2025-01-21T12:00:00Z
+64d9a6f41b1c4f6a,64d9a6f41b1c4f6b,Classic Watch,https://example.com/image88.jpg,"Timeless classic watch with a leather strap.",250,9.90,39.60,"Addis Ababa, Addis Ababa",Cloth,true,64d9a6f41b1c4f6c,2025-01-22T08:00:00Z,2025-01-23T09:00:00Z
+
